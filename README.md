@@ -62,6 +62,7 @@ Once done, close the simulation by going to Simulation → "Close Simulation".
 ## Verilog Code
 
 ### 4:1 MUX Behavioral  Implementation
+```
 module mux4_1(i,s,y);
 input [3:0]i;
 input[1:0]s;
@@ -75,9 +76,9 @@ case(s)
 default:y=4'b0;
 endcase
 endmodule
-
+```
 ### Testbench Implementation
-
+```
 module mux4_1tb;
 reg [3:0]i;
 reg [1:0]s;
@@ -97,7 +98,7 @@ s=2'b11;
 $display("no value assigned");
 end
 endmodule
-
+```
 ### Sample Output
 ![image](https://github.com/user-attachments/assets/a3db5672-c48c-4c77-b738-05819970462e)
 
