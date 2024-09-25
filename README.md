@@ -1,4 +1,4 @@
-# SIMULATION AND IMPLEMENTATION OF 4X1 Mux
+# SIMULATION AND IMPLEMENTATION OF 4X1 MUX
 ## AIM:
 To design and simulate a 4:1 Multiplexer (MUX) using Verilog HDL in four different modeling styles—Gate-Level, Data Flow, Behavioral, and Structural—and to verify its functionality through a testbench using the Vivado 2023.1 simulation environment. The experiment aims to understand how different abstraction levels in Verilog can be used to describe the same digital logic circuit and analyze their performance.
 
